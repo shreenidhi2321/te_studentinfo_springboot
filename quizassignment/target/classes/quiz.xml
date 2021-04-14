@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.tyss.quizassignment.dao.LoginDetails"
+		id="loginDetails" />
+	<bean class="com.tyss.quizassignment.dto.Register" id="register" />
+	<bean class="com.tyss.quizassignment.dto.QuizQuestions" id="java" />
+	<bean class="com.tyss.quizassignment.dto.QuizQuestions" id="html" />
+	<bean class="com.tyss.quizassignment.dto.QuizQuestions" id="spring" />
+	<bean class="com.tyss.quizassignment.dto.Results" id="results" />
+
+
+</beans>
